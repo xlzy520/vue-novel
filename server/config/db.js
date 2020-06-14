@@ -3,7 +3,7 @@ const Sequelize = require('sequelize');
 /**
  * 数据库名称, 账号，密码
  */
-const sequelize = new Sequelize('novel', 'root', 'xlzy5200', {
+const sequelize = new Sequelize('novel', 'root', '', {
     host: 'localhost',
     dialect: 'mysql',
     operatorsAliases: false,
